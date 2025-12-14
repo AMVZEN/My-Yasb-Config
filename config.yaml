@@ -277,7 +277,7 @@ widgets:
     options:
       label: "<span>{icon}</span> {temp}"
       label_alt: "{location}: Min {min_temp}, Max {max_temp}, Humidity {humidity}"
-      api_key: "69dd82eacf634f16a5a74815250111" # Get your free API key from https://www.weatherapi.com/
+      api_key: "insert api key" # Get your free API key from https://www.weatherapi.com/
       show_alerts: true
       tooltip: true
       update_interval: 600 # Update interval in seconds, Min 600 seconds
