@@ -26,11 +26,12 @@ Weather Widget: Add your OpenWeatherMap API key.
 Clock/Time: Adjust formatting if necessary.
 Wallpapers: Ensure your wallpaper folder path is correct (if referenced in the config).
 4. Set Up the Wallpaper Watcher
+Open LaunchYasb.vbs and change the path to your yasb_watcher.ps1
 To make the theme change automatically when you change your wallpaper, you need to run the PowerShell script on startup.
 
 Press Win + R, type shell:startup, and hit Enter.
 Right-click inside the folder > New > Shortcut.
-Paste the path to the yasb_watcher.ps1 file (e.g., C:\Users\YOUR_USER\.config\yasb\yasb_watcher.ps1).
+Paste the path to the LaunchYasb.vbs file (e.g., C:\Users\YOUR_USER\.config\yasb\LaunchYasb.vbs).
 (Optional) Right-click the new shortcut > Properties > Change "Run" to Minimized to hide the window.
 🎨 How it Works
 The yasb_watcher.ps1 script runs in the background and monitors the Windows Registry for wallpaper changes. When a change is detected:
