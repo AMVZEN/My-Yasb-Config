@@ -1,0 +1,76 @@
+.shell powershell
+
+# Reload whkd configuration
+alt + o                 : taskkill /f /im whkd.exe; Start-Process whkd -WindowStyle hidden
+alt + shift + o         : komorebic reload-configuration
+
+alt + i                 : komorebic toggle-shortcuts
+
+alt + q                 : komorebic close
+alt + m                 : komorebic minimize
+
+# Focus windows
+alt + left              : komorebic focus left
+alt + down              : komorebic focus down
+alt + up                : komorebic focus up
+alt + right             : komorebic focus right
+alt + shift + oem_4     : komorebic cycle-focus previous 
+alt + shift + oem_6     : komorebic cycle-focus next 
+
+# Move windows
+alt + shift + left      : komorebic move left
+alt + shift + down      : komorebic move down
+alt + shift + up        : komorebic move up
+alt + shift + right     : komorebic move right
+alt + shift + return    : komorebic promote
+
+# Stack windows
+alt + k                 : komorebic stack left
+alt + l                 : komorebic stack down
+alt + h                 : komorebic stack up
+alt + j                 : komorebic stack right
+alt + oem_1             : komorebic unstack 
+alt + oem_4             : komorebic cycle-stack previous 
+alt + oem_6             : komorebic cycle-stack next 
+
+# Resize
+alt + ctrl + shift + up    : komorebic resize-axis horizontal increase
+alt + ctrl + shift + down  : komorebic resize-axis horizontal decrease
+alt + ctrl + shift + left  : komorebic resize-axis vertical increase
+alt + ctrl + shift + right : komorebic resize-axis vertical decrease
+
+# Layout Switching (NEW)
+alt + z                 : komorebic change-layout bsp
+alt + shift + z         : komorebic change-layout grid
+alt + r                 : komorebic change-layout rows
+alt + c                 : komorebic change-layout columns
+
+# Manipulate windows
+alt + shift + space     : komorebic toggle-float
+alt + shift + f         : komorebic toggle-monocle
+alt + x                 : komorebic flip-layout horizontal
+alt + y                 : komorebic flip-layout vertical
+
+# Window manager options
+alt + shift + r         : komorebic retile
+alt + p                 : komorebic toggle-pause
+
+# Workspaces
+alt + 1                 : komorebic focus-workspace 0
+alt + 2                 : komorebic focus-workspace 1
+alt + 3                 : komorebic focus-workspace 2
+alt + 4                 : komorebic focus-workspace 3
+alt + 5                 : komorebic focus-workspace 4
+alt + 6                 : komorebic focus-workspace 5
+alt + 7                 : komorebic focus-workspace 6
+alt + 8                 : komorebic focus-workspace 7
+
+# Move windows across workspaces
+alt + shift + 1         : komorebic move-to-workspace 0
+alt + shift + 2         : komorebic move-to-workspace 1
+alt + shift + 3         : komorebic move-to-workspace 2
+alt + shift + 4         : komorebic move-to-workspace 3
+alt + shift + 5         : komorebic move-to-workspace 4
+alt + shift + 6         : komorebic move-to-workspace 5
+alt + shift + 7         : komorebic move-to-workspace 6
+alt + shift + 8         : komorebic move-to-workspace 7
