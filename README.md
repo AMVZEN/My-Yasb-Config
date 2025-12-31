@@ -94,6 +94,28 @@ Open `config.yaml` and update the following:
 
 ---
 
+### 5️⃣ Komorebi Configuration
+
+1. Navigate to the **`komorebi`** folder in this repository
+2. Copy the provided configuration files
+3. Replace your existing files with these:
+
+   * `komorebi.json`
+   * `whkdrc`
+
+> ⚠️ These files are tailored to work seamlessly with this YASB setup. Make sure to back up your originals before replacing.
+
+---
+
+### 6️⃣ Windhawk Configuration
+
+1. Open the **`windhawk`** folder in this repository
+2. Follow the instructions provided **inside the files** in that folder
+
+> Windhawk is used for additional Windows-level tweaks required by this setup.
+
+---
+
 ## 🧠 How It Works
 
 The `yasb_watcher.ps1` script runs silently in the background and monitors the Windows Registry for wallpaper changes.
