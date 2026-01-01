@@ -4,8 +4,6 @@ A dynamic theme configuration for **YASB (Yet Another Status Bar)** that automat
 
 This setup uses a custom **PowerShell wallpaper watcher** to generate a **high-contrast, minimal 3-color palette** (Background · Text · Accent) based on your wallpaper—keeping everything readable and aesthetic.
 
-> *Yes, it’s all vibecoded.*
-
 ---
 
 ## ✨ Features
